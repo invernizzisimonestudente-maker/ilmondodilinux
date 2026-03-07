@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5ebdd;
+    color: #1e1e1e;
+    line-height: 1.6
+}
+
+header {
+    background-color: #ff6f3c;
+    color: #f5ebdd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+header svg {
+    width: 80px;
+    height: 80px;
+    fill: #f5ebdd;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+header nav ul li a {
+    color: #f5ebdd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+header nav ul li a:hover {
+    background-color: #f5ebdd;
+    color: #ff6f3c;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: #f5ebdd
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+    color: #ff6f3c
+}
+
+section {
+    padding: 25px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main ul {
+    margin-left: 50px;
+}
+
+#wil {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+#wil .linus {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+#wil .wil-content {
+    flex: 1;
+}
+
+/* START Cards style from Uiverse.io and some AI help */
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    padding: 20px;
+}
+
+.cards .red {
+    background-color: #f43f5e;
+}
+
+.cards .blue {
+    background-color: #3b82f6;
+}
+
+.cards .green {
+    background-color: #22c55e;
+}
+
+.cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.cards .card p.second-text {
+    font-size: .7em;
+}
+
+.cards .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.cards:hover>.card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+/* END Cards style */
+
+footer {
+    background-color: #ff6f3c;
+    color: #f5ebdd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 40px;
+}
+
+footer h2 {
+    color: #f5ebdd
+}
+
+footer b a {
+    color: #f5ebdd;
+    text-decoration: none;
+}
+
+footer b {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+footer b a:hover {
+    background-color: #f5ebdd;
+    color: #ff6f3c;
+    border-radius: 5px;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+footer nav ul li a {
+    color: #f5ebdd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+footer nav ul li a:hover {
+    background-color: #f5ebdd;
+    color: #ff6f3c;
+    border-radius: 5px;
+}
