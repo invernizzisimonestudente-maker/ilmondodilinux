@@ -10,6 +10,7 @@
     padding: 0;
     font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 html {
@@ -95,7 +96,7 @@ footer {
     color: var(--colore-secondario);
     padding: 20px;
     text-align: center;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 footer nav ul {
@@ -161,7 +162,7 @@ table th {
 table td {
     padding: 12px 18px;
     border-bottom: 1px solid rgba(92, 137, 157, 0.2);
-    vertical-align: center;
+    vertical-align: middle;
     font-size: 17px;
     text-align: center
 }
@@ -217,7 +218,6 @@ main ul li {
 
     header {
         padding: 5px;
-        align-items: center;
     }
 
     header nav ul {

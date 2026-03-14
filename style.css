@@ -168,7 +168,7 @@ main ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.cards .card p.tip {
+.cards .card b.tip {
     font-size: 1em;
     font-weight: 700;
 }
