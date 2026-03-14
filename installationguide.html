@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubuntu Installation Guide</title>
+    <title>Guida di Installazione di Ubuntu - Il Mondo di Linux</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -22,16 +22,12 @@
             </svg>Come Installare Ubuntu</h1>
         <nav>
             <ul>
-
-                <li><a href="#">Guida all'installazione</a></li>
-                <li><a href="#terminal">Comandi Terminale</a></li>
-                <li><a href="#sw">Software Consigliato</a></li>
                 <li><a href="index.html"><svg id="houseicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
                             <path
                                 d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
                             <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
-                        </svg></a></li>
+                        </svg>Torna alla Home</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +48,7 @@
                     <td>Immagine ISO di Ubuntu</td>
                     <td>Scarica l'immagine ISO di Ubuntu dal <a href="https://ubuntu.com/download/desktop"
                             target="_blank">sito ufficiale</a>.
-                        <img src="img/downloadubuntupage.png" alt="Download Ubuntu Page Image">
+                        <img class="download-page" src="img/downloadubuntupage.png" alt="Download Ubuntu Page Image">
                     </td>
                 </tr>
                 <tr>
@@ -66,7 +62,8 @@
         </section>
         <section id="2boot">
             <h2>2. Avvio da USB</h2>
-            <p>Inserisci la chiavetta USB nel computer e riavvialo. Durante l'avvio, accedi al menu di boot premendo il tasto appropriato (guarda tabella) e seleziona la chiavetta USB come dispositivo di avvio.</p>
+            <p>Inserisci la chiavetta USB nel computer e riavvialo. Durante l'avvio, accedi al menu di boot premendo il
+                tasto appropriato (guarda tabella) e seleziona la chiavetta USB come dispositivo di avvio.</p>
             <table>
                 <tr>
                     <th>Marca del PC</th>
@@ -93,46 +90,84 @@
                     <td>F10</td>
                 </tr>
             </table>
-            <p>Una volta selezionata la combinazione di tasti, sullo schermo, dovrebbe esserci una situazione simile a questa:</p>
-            <img src="img/bootmenu.png" alt="Boot Menu Image">
+            <p>Una volta selezionata la combinazione di tasti, sullo schermo, dovrebbe esserci una situazione simile a
+                questa:</p>
+            <img class="boot-menu" src="img/bootmenu.png" alt="Boot Menu Image">
         </section>
         <section id="3installation">
             <h2>3. Installazione di Ubuntu</h2>
-            <p>Segui le istruzioni sullo schermo per completare l'installazione di Ubuntu.<br>Verrai accolto dalla selezione della lingua.</p>
-            <img src="img/lang.png" alt="Language Selection Image">
+            <p>Segui le istruzioni sullo schermo per completare l'installazione di Ubuntu.<br>Verrai accolto dalla
+                selezione della lingua.</p>
+            <img class="language-selection" src="img/lang.jpeg" alt="Language Selection Image">
             <p>Poi, verranno mostrate opzioni riguardanti l'accessibilità.</p>
-            <img src="img/accessibility.png" alt="Accessibility Options Image">
+            <img class="accessibility-options" src="img/accessibility.jpeg" alt="Accessibility Options Image">
             <p>Passiamo poi alla selezione del layout della tastiera.</p>
-            <img src="img/keyboard.png" alt="Keyboard Layout Selection Image">
+            <img class="keyboard-layout" src="img/keyboard.jpeg" alt="Keyboard Layout Selection Image">
             <p>E la connessione alla rete Wi-Fi.</p>
-            <img src="img/wifi.png" alt="Wi-Fi Connection Image">
+            <img class="wifi-connection" src="img/wifi.jpeg" alt="Wi-Fi Connection Image">
             <p>Poi, potrai scegliere se installare il sistema sul disco o provarlo direttamente da USB.</p>
-            <img src="img/installortry.png" alt="Install or Try Ubuntu Image">
+            <img class="install-or-try" src="img/installortry.jpeg" alt="Install or Try Ubuntu Image">
             <p>Se scegli di installare, ti verrà chiesto di selezionare il tipo di installazione.</p>
-            <img src="img/installationtype.png" alt="Installation Type Image">
-            <p>Se scegli di effettuare un'installazione interattiva, l'installer ti guiderà nel processo.<br>Se scegli invece un'installazione automatica, verrà richiesto di importare un file da un server web per effettuare più installazioni in ambienti come l'ufficio.<br>In questa guida, effettueremo un'installazione di tipo interattivo.</p>
-            <img src="img/automatedinstall.png" alt="Automated Installation Image">
-            <p>L'installer ti chiederà se effettuare un'installazione "pulita", senza programmi aggiuntivi, o una "estesa", che include l'installazione automatica di strumenti utili, come il pacchetto LibreOffice.</p>
-            <img src="cleanorextended.png">
-            <p>Passiamo ora al succo del processo: l'installazione sul disco rigido.<br>L'installer ti proporrà tre scelte:</p>
+            <img class="installation-type" src="img/installationtype.jpeg" alt="Installation Type Image">
+            <p>Se scegli di effettuare un'installazione interattiva, l'installer ti guiderà nel processo.<br>Se scegli
+                invece un'installazione automatica, verrà richiesto di importare un file da un server web per effettuare
+                più installazioni in ambienti come l'ufficio.<br>In questa guida, effettueremo un'installazione di tipo
+                interattivo.</p>    
+            <p>L'installer ti chiederà se effettuare un'installazione "pulita", senza programmi aggiuntivi, o una
+                "estesa", che include l'installazione automatica di strumenti utili, come il pacchetto LibreOffice.</p>
+            <img class="clean-or-extended" src="img/cleanorextended.jpeg">
+            <p>Passiamo ora al succo del processo: l'installazione sul disco rigido.<br>L'installer ti proporrà tre
+                scelte:</p>
             <ul>
                 <li>Svuota Disco e Installa Ubuntu</li>
                 <li>Installa Ubuntu Accanto a Windows</li>
                 <li>Installazione Manuale</li>
             </ul>
-            <p>Se scegli la prima opzione, il disco rigido verrà completamente formattato e Ubuntu sarà l'unico sistema operativo presente.<br>
-                Se scegli la seconda opzione, Ubuntu verrà installato accanto a Windows, permettendoti di scegliere quale sistema operativo avviare all'accensione del computer.
-                <br>Se scegli la terza opzione, potrai personalizzare la partizione del disco rigido, creando partizioni separate per il sistema operativo, i dati e lo swap, se necessario.</p>
-            <img src="img/installationtype2.png" alt="Installation Type 2 Image">
-            <p>Dopo aver selezionato il tipo di installazione, l'installer ti chiederà di inserire alcune informazioni personali, come il tuo nome, il nome del computer, il nome utente e la password. Assicurati di scegliere una password sicura e di ricordarla, poiché sarà necessaria per accedere al sistema e per eseguire operazioni amministrative.</p>
-            <img src="img/userinfo.png" alt="User Information Image">
-            <p>Dopo aver inserito tutte le informazioni richieste, l'installer inizierà il processo di installazione, copiando i file necessari sul disco rigido e configurando il sistema. Questo processo potrebbe richiedere alcuni minuti, a seconda della velocità del tuo computer e del tipo di installazione scelto.</p>
-            <img src="img/installing.png" alt="Installing Ubuntu Image">
-            <p>Una volta completata l'installazione, ti verrà chiesto di riavviare il computer. Rimuovi la chiavetta USB quando richiesto e premi Invio per riavviare. Al riavvio, dovresti vedere il menu di avvio di GRUB, che ti permetterà di scegliere tra Ubuntu e Windows (se hai scelto l'installazione accanto a Windows).</p>
-            <img src="img/grub.png" alt="GRUB Boot Menu Image">
-            <p>Seleziona Ubuntu e premi Invio per avviare il sistema operativo. Al primo avvio, potresti essere accolto da una schermata di benvenuto che ti guiderà attraverso alcune configurazioni iniziali, come l'installazione di aggiornamenti e la personalizzazione del desktop.</p>
-            <img src="img/welcome.png" alt="Welcome Screen Image">
+            <p>Se scegli la prima opzione, il disco rigido verrà completamente formattato e Ubuntu sarà l'unico sistema
+                operativo presente.<br>
+                Se scegli la seconda opzione, Ubuntu verrà installato accanto a Windows, permettendoti di scegliere
+                quale sistema operativo avviare all'accensione del computer.
+                <br>Se scegli la terza opzione, potrai personalizzare la partizione del disco rigido, creando partizioni
+                separate per il sistema operativo, i dati e lo swap, se necessario.
+            </p>
+            <img class="installation-type-2" src="img/installationtype2.jpeg" alt="Installation Type 2 Image">
+            <p>Dopo aver selezionato il tipo di installazione, l'installer ti chiederà di inserire alcune informazioni
+                personali, come il tuo nome, il nome del computer, il nome utente e la password. Assicurati di scegliere
+                una password sicura e di ricordarla, poiché sarà necessaria per accedere al sistema e per eseguire
+                operazioni amministrative.</p>
+            <img class="user-info" src="img/userinfo.jpeg" alt="User Information Image">
+            <p>Dopo aver inserito tutte le informazioni richieste, l'installer inizierà il processo di installazione,
+                copiando i file necessari sul disco rigido e configurando il sistema. Questo processo potrebbe
+                richiedere alcuni minuti, a seconda della velocità del tuo computer e del tipo di installazione scelto.
+            </p>
+            <img class="installing" src="img/installing.jpeg" alt="Installing Ubuntu Image">
+            <p>Una volta completata l'installazione, ti verrà chiesto di riavviare il computer. Rimuovi la chiavetta USB
+                quando richiesto e premi Invio per riavviare. Al riavvio, dovresti vedere il menu di avvio di GRUB, che
+                ti permetterà di scegliere tra Ubuntu e Windows (se hai scelto l'installazione accanto a Windows).</p>
+            <img class="grub-menu" src="img/grub.png" alt="GRUB Boot Menu Image">
+            <p>Seleziona "Ubuntu" e premi Invio per avviare il tuo nuovo sistema operativo. Al primo avvio, potresti essere accolto
+                da una schermata di benvenuto che ti guiderà attraverso alcune configurazioni iniziali, come
+                l'installazione di aggiornamenti e la personalizzazione del desktop.</p>
+            <img class="welcome-screen" src="img/welcome.jpeg" alt="Welcome Screen Image">
+            <p>Congratulazioni! Hai installato con successo Ubuntu sul tuo computer. Ora puoi esplorare il mondo di Linux e
+                personalizzare il tuo sistema secondo le tue esigenze.</p>  
     </main>
+    <footer>
+        <a href="#" class="back-to-top">^</a>
+        <nav>
+            <ul>
+                <li><a href="index.html"><svg id="houseicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>Torna alla Home</a></li>
+            </ul>
+        </nav>
+        <p>&copy; Invernizzi Simone<br>
+                Classe 1ID, I.T.I.S. P. Paleocapa, Bergamo<br>
+            </p>
+    </footer>
 </body>
 
 </html>

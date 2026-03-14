@@ -30,7 +30,9 @@ a {
 header nav ul li a:hover {
     text-decoration: none
 }
-
+footer nav ul li a:hover {
+    text-decoration: none
+}
 #ubuntuicon {
     width: 50px;
     height: 50px;
@@ -53,6 +55,7 @@ header {
     padding: 20px;
     text-align: center;
     border-radius: 0 0 10px 10px;
+    align-items: center;
 }
 
 header nav ul {
@@ -87,8 +90,158 @@ header h1 {
 
 }
 
+footer {
+    background-color: var(--colore-primario);
+    color: var(--colore-secondario);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 3px 3px;
+}
+
+footer nav ul li a {
+    display: flex;
+    align-items: center;
+    color: var(--colore-secondario);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+footer nav ul li a:hover {
+    background-color: var(--colore-secondario);
+    color: var(--colore-primario);
+    border-radius: 5px;
+}
+
 h1,
 h2 {
     margin-bottom: 20px;
     color: #ff6f3c
+}
+
+img {
+    max-width: 40%;
+    height:auto;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    padding: 25px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 4px 16px rgba(92, 137, 157, 0.15);
+}
+
+table th {
+    background-color: var(--colore-ubuntu);
+    color: var(--colore-secondario);
+    padding: 14px 18px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 17px
+}
+
+table td {
+    padding: 12px 18px;
+    border-bottom: 1px solid rgba(92, 137, 157, 0.2);
+    vertical-align: center;
+    font-size: 17px;
+    text-align: center
+}
+
+table tr:nth-child(even) td {
+    background-color: rgba(92, 137, 157, 0.08);
+}
+
+table td:first-child {
+    font-weight: 600;
+    color: var(--colore-ubuntu);
+    white-space: nowrap;
+}
+
+header nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav ul li a {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li svg {
+    margin: 5px 0 0 0;
+}
+
+main ul li {
+    margin: 0 0 0 30px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(0,0,0,0.1);
+    color: var(--colore-secondario);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: var(--colore-ubuntu);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 5px;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    #wil .linus {
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    footer nav ul {
+        display: none;
+    }
+
+    .back-to-top {
+        right: 5px;
+        bottom: 5px;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
