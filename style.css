@@ -1,3 +1,6 @@
+/* ERRORI:
+- Su mobile manca il riferimento alla guida di Ubuntu, data la proprietà che nasconde la navbar su schermi di larghezza inferiore a 768px. (r: 272)
+*/
 :root {
     --colore-primario: #5c899d;
     --colore-secondario: #fffcef;
@@ -272,8 +275,12 @@ header nav ul li a svg {
         padding: 5px;
     }
 
-    header nav ul {
+    header nav ul li:has(.nav-link) {
         display: none;
+    }
+    
+    #nav-guide-link {
+      ;
     }
 
     .cards {
